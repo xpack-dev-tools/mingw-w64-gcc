@@ -1,9 +1,15 @@
 
 {/* ------------------------------------------------------------------------ */}
 
-[MinGW-w64 GCC](https://mingw-w64.org) is an advancement of the original mingw.org project, created to support the GCC compiler on Windows systems.
+[MinGW-w64 GCC](https://mingw-w64.org) is an advancement of the original mingw.org project. The core of the Mingw-w64 project consists of headers and support libraries that enable GCC to produce `.exe` Windows binaries, while running on different platforms (macOS/Linux/Windows).
 
-The core of the Mingw-w64 project consists of headers and support libraries that enable GCC-generated output to run on Windows.
+:::tip
+
+It is important to note the difference between the `mingw-w64-xpack` and `gcc-xpack`. The former is primarily a cross-compiler that produces `.exe` binaries, while the latter is a native compiler that produces binaries specific to each platform.
+
+Although both generate `.exe` binaries on Windows, it is highly recommended to use the `gcc-xpack` package for portable projects that are expected to run the same on all platforms.
+
+:::
 
 **MinGW-w64 GCC** is an open source project hosted on
 [SourceForge](https://sourceforge.net/projects/mingw-w64/).
