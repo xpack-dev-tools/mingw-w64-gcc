@@ -1,0 +1,7 @@
+Sitemap: https://xpack-dev-tools.github.io/mingw-w64-gcc-xpack/sitemap.xml
+
+User-agent: *
+Disallow: /mingw-w64-gcc-xpack/blog/archive/
+Disallow: /mingw-w64-gcc-xpack/blog/authors/
+Disallow: /mingw-w64-gcc-xpack/blog/page/
+Disallow: /mingw-w64-gcc-xpack/blog/tags/
