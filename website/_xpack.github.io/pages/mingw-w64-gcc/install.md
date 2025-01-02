@@ -121,7 +121,7 @@ pages.
 To check if the xpm installed GCC starts, use something like:
 
 ```doscon
-C:\>%USERPROFILE%\AppData\Roaming\xPacks\@xpack-dev-tool\mingw-w64-gcc\{{ page.version }}-{{ page.xpack-subversion }}.1\.content\bin\x86_64-w64-mingw32-gcc.exe" --version
+C:\>%USERPROFILE%\AppData\Roaming\xPacks\@xpack-dev-tools\mingw-w64-gcc\{{ page.version }}-{{ page.xpack-subversion }}.1\.content\bin\x86_64-w64-mingw32-gcc.exe" --version
 x86_64-w64-mingw32-gcc.exe (xPack MinGW-w64 GCC x86_64) {{ page.version }}
 ```
 
