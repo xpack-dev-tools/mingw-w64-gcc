@@ -5,8 +5,7 @@
 
 # The xPack MinGW-w64 GCC
 
-A standalone cross-platform (Windows, macOS, GNU/Linux)
-binary distribution of MinGW-w64 GCC,
+A standalone, cross-platform (Windows, macOS, GNU/Linux) binary distribution of MinGW-w64 GCC,
 intended for reproducible builds.
 
 ## Project documentation
