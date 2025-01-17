@@ -16,8 +16,6 @@
       "@xpack-dev-tools/xbb-helper": "^3.1.3"
     },
     "properties": {
-      "appName": "MinGW-w64 GCC",
-      "appLcName": "mingw-w64-gcc",
       "platforms": "all",
       "customFields": {
         "programName": "x86_64-w64-mingw32-gcc",
@@ -35,7 +33,7 @@
     "actions": {
       "deep-clean": [
         "rm -rf build xpacks node_modules package-lock.json",
-        "rm -rf ${HOME}/Work/xpack-dev-tools-build/{{properties.appLcName}}-[0-9]*-*"
+        "rm -rf ${HOME}/Work/xpack-dev-tools-build/mingw-w64-gcc-[0-9]*-*"
       ],
       "install": [
         "npm install",
@@ -94,7 +92,7 @@
         "actions": {
           "deep-clean": [
             "rm -rf {{properties.buildFolderRelativePathPosix}}",
-            "rm -rf ${HOME}/Work/xpack-dev-tools-build/{{properties.appLcName}}-[0-9]*-*/{{configuration.name}}"
+            "rm -rf ${HOME}/Work/xpack-dev-tools-build/mingw-w64-gcc-[0-9]*-*/{{configuration.name}}"
           ],
           "install": "xpm install --config {{configuration.name}}"
         }
@@ -111,7 +109,7 @@
       "common-docker": {
         "hidden": true,
         "properties": {
-          "containerName": "{{properties.appLcName}}-{{package.version}}-{{configuration.name}}",
+          "containerName": "mingw-w64-gcc-{{package.version}}-{{configuration.name}}",
           "force32": ""
         },
         "actions": {
