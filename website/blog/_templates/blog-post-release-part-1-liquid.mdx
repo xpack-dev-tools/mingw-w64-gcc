@@ -18,8 +18,8 @@ tags:
 # ----- Custom properties -----------------------------------------------------
 
 gcc_version: "{{upstreamVersion}}"
-binutils_version: "{{customFields.binutilsVersionMajor}}.{{customFields.binutilsVersionMinor}}"
-mingw_version: "{{customFields.mingwVersion}}"
+binutils_version: "{{packageWebsiteConfig.binutilsVersionMajor}}.{{packageWebsiteConfig.binutilsVersionMinor}}"
+mingw_version: "{{packageWebsiteConfig.mingwVersion}}"
 
 version: "{{releaseVersion}}"
 npm_subversion: "1"
