@@ -275,7 +275,7 @@ const config: Config = {
           label: 'GitHub',
           items: [
             {
-              label: `mingw-w64-gcc-xpack`,
+              label: `mingw-w64-gcc-xpack project`,
               href: `https://github.com/xpack-dev-tools/mingw-w64-gcc-xpack/`,
             },
             {
@@ -348,7 +348,7 @@ const config: Config = {
               href: 'https://www.paypal.com/donate/?hosted_button_id=5MFRG9ZRBETQ8',
             },
             {
-              label: 'GitHub mingw-w64-gcc-xpack',
+              label: 'GitHub mingw-w64-gcc-xpack project',
               href: 'https://github.com/xpack-dev-tools/mingw-w64-gcc-xpack/',
             },
             {
